@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="16">
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="17"/>
+			<ChildItems>
+				<InputField name="МоментВремени" id="1">
+					<DataPath>Запись.ДатаРегистрации</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="МоментВремениКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="МоментВремениРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="КодОтвета" id="13">
+					<DataPath>Запись.КодОтвета</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="КодОтветаКонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="КодОтветаРасширеннаяПодсказка" id="15"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Обработчик" id="4">
+			<DataPath>Запись.ИдентификаторОбработчика</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ОбработчикКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ОбработчикРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<Pages name="Группа2" id="18">
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="19"/>
+			<ChildItems>
+				<Page name="ГруппаЗапрос" id="20">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Запрос</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа запрос</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаЗапросРасширеннаяПодсказка" id="21"/>
+					<ChildItems>
+						<InputField name="ОписаниеЗапроса" id="7">
+							<DataPath>Запись.ПредставлениеЗапроса</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<MultiLine>true</MultiLine>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ОписаниеЗапросаКонтекстноеМеню" id="8"/>
+							<ExtendedTooltip name="ОписаниеЗапросаРасширеннаяПодсказка" id="9"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаОтвет" id="22">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ответ</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа ответ</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаОтветРасширеннаяПодсказка" id="23"/>
+					<ChildItems>
+						<InputField name="ОписаниеОтвета" id="10">
+							<DataPath>Запись.ПредставлениеОтвета</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ОписаниеОтветаКонтекстноеМеню" id="11"/>
+							<ExtendedTooltip name="ОписаниеОтветаРасширеннаяПодсказка" id="12"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.ЖурналHTTPЗапросов</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

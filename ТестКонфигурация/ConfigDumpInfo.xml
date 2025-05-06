@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.19">
+	<ConfigVersions>
+		<Metadata name="CommonModule.Products" id="6935d1e3-1181-4d0c-9658-4626a618bee5" configVersion="af152a112754204aaf71887ce5b20b7200000000"/>
+		<Metadata name="CommonModule.Products.Module" id="6935d1e3-1181-4d0c-9658-4626a618bee5.0" configVersion="5d7902c54e01ef409b9e762d61fe021600000000"/>
+		<Metadata name="CommonModule.ЛогированиеHTTP" id="bf89c689-83b3-497b-8522-98f7c8347d39" configVersion="5a7ddf62bfab124ca8bd91ccbe4b342200000000"/>
+		<Metadata name="CommonModule.ЛогированиеHTTP.Module" id="bf89c689-83b3-497b-8522-98f7c8347d39.0" configVersion="d3427b9589d3aa4a951fdeb1930de4d100000000"/>
+		<Metadata name="CommonModule.ОбработчикHTTP" id="09fbd786-d8d6-428a-b7cc-ef41c5740c79" configVersion="dc71e377c581444490bb2cd3d332c2cc00000000"/>
+		<Metadata name="CommonModule.ОбработчикHTTP.Module" id="09fbd786-d8d6-428a-b7cc-ef41c5740c79.0" configVersion="13788a8f92f48549b1630e14efd4408000000000"/>
+		<Metadata name="Configuration.Products" id="8842c354-06fb-4c42-884d-6c703ce4843d" configVersion="a61c6a848d6e9f43832c3cfb67c6075f00000000"/>
+		<Metadata name="HTTPService.MDM" id="8e2163a6-3728-4701-9128-a7511b02bc92" configVersion="4971d1846568dc43b4a176138e72066a00000000">
+			<Metadata name="HTTPService.MDM.URLTemplate.products.Method.POST" id="75f76439-9dfd-4a9a-ac63-949f4cb47c4b"/>
+			<Metadata name="HTTPService.MDM.URLTemplate.products.Method.GET" id="801a2450-3c63-4991-ae97-580f92088782"/>
+			<Metadata name="HTTPService.MDM.URLTemplate.products" id="bd357931-d1eb-4daf-a897-da52da86233c"/>
+		</Metadata>
+		<Metadata name="HTTPService.MDM.Module" id="8e2163a6-3728-4701-9128-a7511b02bc92.0" configVersion="a41071b27e4fec4baef09cc7841b4fbd00000000"/>
+		<Metadata name="InformationRegister.ЖурналHTTPЗапросов" id="059286a8-c075-4ef4-8905-c772258781be" configVersion="825ded2de8b86c4c959008e0d47a6cff00000000">
+			<Metadata name="InformationRegister.ЖурналHTTPЗапросов.Dimension.ДатаРегистрации" id="298e83f4-4ae6-49d1-b835-6a48583c3647"/>
+			<Metadata name="InformationRegister.ЖурналHTTPЗапросов.Resource.ПредставлениеОтвета" id="50a13b6e-2949-47dc-823a-f434d6482bb9"/>
+			<Metadata name="InformationRegister.ЖурналHTTPЗапросов.Resource.ПредставлениеЗапроса" id="5f673230-bb71-463a-b39d-65ed9607e6e4"/>
+			<Metadata name="InformationRegister.ЖурналHTTPЗапросов.Resource.КодОтвета" id="6387e3ae-34c6-471b-a44b-a488b90a5d1c"/>
+			<Metadata name="InformationRegister.ЖурналHTTPЗапросов.Resource.Длительность" id="65925b8c-58a9-40a5-b324-b817a44093de"/>
+			<Metadata name="InformationRegister.ЖурналHTTPЗапросов.Dimension.ИдентификаторОбработчика" id="6919128a-ed43-4b1f-9575-bfcc1d2094dc"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ЖурналHTTPЗапросов.Form.ФормаЗаписи" id="15fcb4d9-48e9-4bc3-ab84-d13c5834daaf" configVersion="08d26f0999874545b184ea93dd0bd5d400000000"/>
+		<Metadata name="InformationRegister.ЖурналHTTPЗапросов.Form.ФормаЗаписи.Form" id="15fcb4d9-48e9-4bc3-ab84-d13c5834daaf.0" configVersion="60e372ec83514f418518ec458fbdff9700000000"/>
+		<Metadata name="InformationRegister.НастройкиЛогированияHTTP" id="cd0be387-0fd9-4821-bed5-ceaa993bdfe1" configVersion="aa57fd630d29d043b1fd18f18d472b1100000000">
+			<Metadata name="InformationRegister.НастройкиЛогированияHTTP.Dimension.ИдентификаторОбработчика" id="1e0826c9-050c-4268-bc96-6007e0b6baff"/>
+			<Metadata name="InformationRegister.НастройкиЛогированияHTTP.Dimension.КодСостояния" id="5a806b86-40c9-42a6-9fb9-b0d748e3cc24"/>
+		</Metadata>
+		<Metadata name="InformationRegister.НастройкиЛогированияHTTP.Form.ФормаЗаписи" id="005904fd-f9f1-4575-965c-c2d2f6fa6394" configVersion="6c1f891a98a9be48aaf6f27e9eea879000000000"/>
+		<Metadata name="InformationRegister.НастройкиЛогированияHTTP.Form.ФормаЗаписи.Form" id="005904fd-f9f1-4575-965c-c2d2f6fa6394.0" configVersion="a80837458b195d40b437b22e8b5dcb4700000000"/>
+		<Metadata name="InformationRegister.НастройкиЛогированияHTTP.Form.ФормаСписка" id="c47f3ad1-1d6a-4222-8468-b8bcfe613ad1" configVersion="c363c0eeaaab75468b6e4571ee29fe1700000000"/>
+		<Metadata name="InformationRegister.НастройкиЛогированияHTTP.Form.ФормаСписка.Form" id="c47f3ad1-1d6a-4222-8468-b8bcfe613ad1.0" configVersion="30561d593e22f64ab1c34d7d3e26061700000000"/>
+		<Metadata name="Language.Русский" id="1e4ac5b6-a516-4880-a779-eb015bd8885f" configVersion="46b3c16a04705e4ea6c9625a788360f600000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

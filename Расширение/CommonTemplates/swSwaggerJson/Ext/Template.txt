@@ -1,0 +1,123 @@
+﻿{
+"openapi": "3.0.3",
+"info": {
+"description": "Products demo API",
+"title": "API Server for Products demo",
+"version": "1.0"
+},
+"servers": [
+{
+"url": "http://host/hs#"
+}
+],
+"paths": {
+"/mdm/*": {
+"get": {
+"parameters": [
+{
+"description": "поиск по наименованию",
+"name": "name",
+"in": "query",
+"required": false,
+"schema": {
+"type": "string",
+"example": "tele"
+}
+}
+],
+"tags": [
+"MDM"
+],
+"description": "MDM (Products GET)",
+"summary": "MDM (Products GET)",
+"responses": {
+"200": {
+"description": "ок",
+"content": {
+"application/json": {
+"schema": {
+"type": "array",
+"items": {
+"type": "object",
+"properties": {
+"id": {
+"type": "number",
+"example": 1
+},
+"name": {
+"type": "string",
+"example": "Смартфон XYZ"
+},
+"price": {
+"type": "number",
+"example": 599.99
+}
+}
+}
+}
+}
+}
+}
+}
+},
+"post": {
+"parameters": [],
+"tags": [
+"MDM"
+],
+"description": "MDM (Products POST)",
+"summary": "MDM (Products POST)",
+"responses": {
+"200": {
+"description": "Полученный идентификатор норменклатуры",
+"content": {
+"application/json": {
+"schema": {
+"type": "string",
+"example": "b267ff8e-55b4-4db0-aded-65cc2efd57fa"
+}
+}
+}
+}
+},
+"requestBody": {
+"required": true,
+"content": {
+"application/json": {
+"schema": {
+"type": "object",
+"properties": {
+"id": {
+"type": "number",
+"example": 1
+},
+"name": {
+"type": "string",
+"example": "Смартфон XYZ"
+},
+"price": {
+"type": "number",
+"example": 599.99
+}
+}
+}
+}
+}
+}
+}
+}
+},
+"components": {
+"securitySchemes": {
+"basicAuth": {
+"type": "http",
+"scheme": "basic"
+}
+}
+},
+"security": [
+{
+"BasicAuth": []
+}
+]
+}

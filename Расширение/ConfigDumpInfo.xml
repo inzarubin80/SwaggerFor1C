@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.19">
+	<ConfigVersions>
+		<Metadata name="CommonTemplate.swSwaggerClient" id="abf25a41-2cc3-4a5d-89e8-18a5734a123b" configVersion="e03f956bb65d79c78526af2286e266d64e2a758e"/>
+		<Metadata name="CommonTemplate.swSwaggerClient.Template" id="abf25a41-2cc3-4a5d-89e8-18a5734a123b.0" configVersion="4f0cdb930a340732e1d9a6451674ea570b104ebd"/>
+		<Metadata name="CommonTemplate.swSwaggerJson" id="3c45678b-7835-4fe2-882c-1bd4de477a04" configVersion="91c2a85479e7e8b487c016543af81639e26faf28"/>
+		<Metadata name="CommonTemplate.swSwaggerJson.Template" id="3c45678b-7835-4fe2-882c-1bd4de477a04.0" configVersion="e6c4b71f10146cda9f4d39b6942073efd65eca42"/>
+		<Metadata name="Configuration.Swagger" id="7cc5a553-c210-40be-a993-4ff09ecdc83e" configVersion="a1b6a00beab3ed309fdd3a7a2b7a4cc161cc7eed"/>
+		<Metadata name="DataProcessor.swГенерацияSwagger" id="43f6e3a0-b091-4eec-95c4-370ce0239fd6" configVersion="c94cc6556183ea2a0adcdb46963bab1eacdfe9da">
+			<Metadata name="DataProcessor.swГенерацияSwagger.TabularSection.РезультатыЗапроса.Attribute.Тип" id="06bf16f1-fc0c-4276-befe-399816476293"/>
+			<Metadata name="DataProcessor.swГенерацияSwagger.Attribute.ОшибкаФормированияНотаций" id="113abaf3-29e2-4cda-b5e9-c7501e48d978"/>
+			<Metadata name="DataProcessor.swГенерацияSwagger.Attribute.Пароль" id="2a84618f-7db8-4459-872b-083d0995469b"/>
+			<Metadata name="DataProcessor.swГенерацияSwagger.Attribute.ШаблонSwaggerClient" id="2eb759d3-24ac-4814-af6b-030a85eeb927"/>
+			<Metadata name="DataProcessor.swГенерацияSwagger.Attribute.ПолеСохранения" id="369d54e3-a8d9-4115-9972-7b33aaf89e7b"/>
+			<Metadata name="DataProcessor.swГенерацияSwagger.Attribute.Метод" id="3a9d2b77-ab63-419e-b1e5-71c0c0436958"/>
+			<Metadata name="DataProcessor.swГенерацияSwagger.Attribute.АдресПубликации" id="404a023e-4894-42af-87fe-49d76c6af93f"/>
+			<Metadata name="DataProcessor.swГенерацияSwagger.Attribute.КаталогПроектаSwago" id="45fb28bf-b640-491c-a155-4c5fd6eeedf5"/>
+			<Metadata name="DataProcessor.swГенерацияSwagger.TabularSection.ПараметрыЗаголовкаРезультатаОтвета.Attribute.Тип" id="56f38f2e-0c76-415b-910f-dc2abb8fbf28"/>
+			<Metadata name="DataProcessor.swГенерацияSwagger.TabularSection.РезультатыЗапроса" id="69015f86-d140-4f80-93bc-cb8a948bc3bd"/>
+			<Metadata name="DataProcessor.swГенерацияSwagger.TabularSection.ПараметрыЗаголовкаРезультатаОтвета.Attribute.Комментарий" id="71912cdc-7c19-435d-8820-7659897e9c89"/>
+			<Metadata name="DataProcessor.swГенерацияSwagger.TabularSection.РезультатыЗапроса.Attribute.КодОтвета" id="77340ef1-275d-4ff4-bc29-4c163cf5b7fd"/>
+			<Metadata name="DataProcessor.swГенерацияSwagger.TabularSection.ПараметрыЗапроса.Attribute.Тип" id="7afd526b-fae8-4b72-947a-f7ead23dbc4d"/>
+			<Metadata name="DataProcessor.swГенерацияSwagger.TabularSection.ПараметрыЗапроса.Attribute.Комментарий" id="7ec5657f-56d1-4232-a6f3-c54ef81e79a3"/>
+			<Metadata name="DataProcessor.swГенерацияSwagger.TabularSection.ПараметрыЗаголовкаРезультатаОтвета.Attribute.КодОтвета" id="822469f7-d085-4c5b-a915-96e4627dc08b"/>
+			<Metadata name="DataProcessor.swГенерацияSwagger.TabularSection.ПараметрыЗаголовкаРезультатаОтвета" id="8bae71c5-b2fc-4def-b1cf-d0daa1471a46"/>
+			<Metadata name="DataProcessor.swГенерацияSwagger.TabularSection.ПараметрыЗапроса.Attribute.Обязательный" id="90e123f5-32cb-42d7-b306-a80e5e5ce10f"/>
+			<Metadata name="DataProcessor.swГенерацияSwagger.Attribute.HTMLSwaggerКлиент" id="926c3710-79d5-4c73-8f82-5694f2aa1eb5"/>
+			<Metadata name="DataProcessor.swГенерацияSwagger.TabularSection.РезультатыЗапроса.Attribute.Комментарий" id="930833cc-8356-4068-805d-3a50f736391f"/>
+			<Metadata name="DataProcessor.swГенерацияSwagger.Attribute.SwaggerJson" id="93c95edb-1c97-4150-b2cc-7b254a894aaa"/>
+			<Metadata name="DataProcessor.swГенерацияSwagger.TabularSection.ПараметрыЗаголовкаРезультатаОтвета.Attribute.Имя" id="97c0e054-2529-4a77-8a3f-e8042b7fbc03"/>
+			<Metadata name="DataProcessor.swГенерацияSwagger.TabularSection.ПараметрыЗаголовкаРезультатаОтвета.Attribute.Значение" id="9ad63876-142e-41d4-970e-798f0848964d"/>
+			<Metadata name="DataProcessor.swГенерацияSwagger.Attribute.ОшибкаФормированияSwaggerJson" id="9eb1f34b-59d3-4b5f-9bec-964034e2e6c3"/>
+			<Metadata name="DataProcessor.swГенерацияSwagger.Attribute.Сервис" id="9fc533f9-7780-4502-8c40-2e36c73a0f56"/>
+			<Metadata name="DataProcessor.swГенерацияSwagger.Attribute.КаталогПроекта1с" id="b077fc4e-4729-401a-a9e0-5a3eace88ae6"/>
+			<Metadata name="DataProcessor.swГенерацияSwagger.Attribute.АутенфикацияОС" id="b5c24888-7fac-4a6b-b23c-82a2266e5408"/>
+			<Metadata name="DataProcessor.swГенерацияSwagger.TabularSection.ПараметрыЗапроса.Attribute.Имя" id="c4e0d372-5806-41d9-a4b8-68088b703e96"/>
+			<Metadata name="DataProcessor.swГенерацияSwagger.Attribute.АдресБазы" id="c8b3d537-1c92-4dfd-b06c-b5edaca66037"/>
+			<Metadata name="DataProcessor.swГенерацияSwagger.TabularSection.РезультатыЗапроса.Attribute.Значение" id="d248aa4f-8a18-40b6-858f-cfccf4151de9"/>
+			<Metadata name="DataProcessor.swГенерацияSwagger.Attribute.Логин" id="f0194105-65df-4903-8d50-f46eeb1a3597"/>
+			<Metadata name="DataProcessor.swГенерацияSwagger.TabularSection.ПараметрыЗапроса" id="f257a20a-bf89-4655-a4c8-268add2cd409"/>
+			<Metadata name="DataProcessor.swГенерацияSwagger.TabularSection.ПараметрыЗапроса.Attribute.Значение" id="f40c4f1f-21d3-49a2-8356-2b2a9395b853"/>
+			<Metadata name="DataProcessor.swГенерацияSwagger.Attribute.Нотации" id="f843f533-e461-4c34-b1e5-921ce7b80404"/>
+			<Metadata name="DataProcessor.swГенерацияSwagger.TabularSection.ПараметрыЗапроса.Attribute.Локация" id="f91567b5-3073-4372-a86b-bd4f37e937b3"/>
+		</Metadata>
+		<Metadata name="DataProcessor.swГенерацияSwagger.Form.SwaggerКлиент" id="f3760a0f-515f-469f-af06-ad337bfddb93" configVersion="7c51ddcbd4fc5d71596dccc38a7c87a73daff45c"/>
+		<Metadata name="DataProcessor.swГенерацияSwagger.Form.SwaggerКлиент.Form" id="f3760a0f-515f-469f-af06-ad337bfddb93.0" configVersion="e960fcf2c431c87cbd5583a24b8df5e100b1c40f"/>
+		<Metadata name="DataProcessor.swГенерацияSwagger.Form.ФормаНастройкиПодключения" id="70ae3b13-ea12-40c8-921a-b4fdb38e40cf" configVersion="a0e4073fab19d6de65c6aaf76088fcf94e09df53"/>
+		<Metadata name="DataProcessor.swГенерацияSwagger.Form.ФормаНастройкиПодключения.Form" id="70ae3b13-ea12-40c8-921a-b4fdb38e40cf.0" configVersion="c680c30054b9dc6daac0d5884c61c0a497104d96"/>
+		<Metadata name="DataProcessor.swГенерацияSwagger.Form.ФормаРедактированияJSON" id="cad502d6-9a3b-496a-a572-35895f047a12" configVersion="fb1d02be42342ac6133c343cc678f1d6c12ed519"/>
+		<Metadata name="DataProcessor.swГенерацияSwagger.Form.ФормаРедактированияJSON.Form" id="cad502d6-9a3b-496a-a572-35895f047a12.0" configVersion="b203cc60385a9a799039c5b737c90723e84c1378"/>
+		<Metadata name="DataProcessor.swГенерацияSwagger.Form.ФормаРезультатЗапроса" id="34395210-4800-4893-8dc7-2edbadd52203" configVersion="82ccc057bda5d409c5e65c027d588418d8e11a67"/>
+		<Metadata name="DataProcessor.swГенерацияSwagger.Form.ФормаРезультатЗапроса.Form" id="34395210-4800-4893-8dc7-2edbadd52203.0" configVersion="d11858f0b45fa85f4f5e1d1a592835dbaf273fb1"/>
+		<Metadata name="DataProcessor.swГенерацияSwagger.Form.ФормаУправляемая" id="cb64187c-55bf-4ff2-b496-06accb8fb66a" configVersion="0ad3d191e9486b563ffb81d0df4c63652ddaf48c"/>
+		<Metadata name="DataProcessor.swГенерацияSwagger.Form.ФормаУправляемая.Form" id="cb64187c-55bf-4ff2-b496-06accb8fb66a.0" configVersion="8307f6fc6f17195a5b946d3e4515fa93336b2a6b"/>
+		<Metadata name="DataProcessor.swГенерацияSwagger.ObjectModule" id="43f6e3a0-b091-4eec-95c4-370ce0239fd6.0" configVersion="e7e1b46b004ad46f3e8f5b8ff9dc0473b97c323b"/>
+		<Metadata name="DataProcessor.swГенерацияSwagger.Template.src" id="15a8d865-ad95-48d5-a4e8-146b0332a448" configVersion="a0de3c585fbbd8d3b44de0f87db2812854586196"/>
+		<Metadata name="DataProcessor.swГенерацияSwagger.Template.src.Template" id="15a8d865-ad95-48d5-a4e8-146b0332a448.0" configVersion="f8d9fb8c5406a527b43ed2dd076c19e43185a4d9"/>
+		<Metadata name="DataProcessor.swГенерацияSwagger.Template.озSwaggerClient" id="7f9ba18c-e3d8-46bb-b922-a391c317ca5b" configVersion="b63f8dc75fd08120388b514dffbcda0a9bf9a150"/>
+		<Metadata name="DataProcessor.swГенерацияSwagger.Template.озSwaggerClient.Template" id="7f9ba18c-e3d8-46bb-b922-a391c317ca5b.0" configVersion="139768cd1b05790933ed9487fd992671e80f4c94"/>
+		<Metadata name="HTTPService.swSwaggerClient" id="a54433a4-d2de-4a2f-b6f1-7f539046e014" configVersion="f813b57fd7f0de9c9148bfe5533b506cdd6292e2">
+			<Metadata name="HTTPService.swSwaggerClient.URLTemplate.SwaggerJson.Method.GET" id="36cb83c1-c31c-4bcb-8c0d-4d7a07ac0c3f"/>
+			<Metadata name="HTTPService.swSwaggerClient.URLTemplate.SwaggerJson" id="953802ef-3f84-4d98-b18e-294fd3ece32a"/>
+			<Metadata name="HTTPService.swSwaggerClient.URLTemplate.Swager" id="a52f1ae6-f0a4-4f16-b25e-5f9b3ed9206e"/>
+			<Metadata name="HTTPService.swSwaggerClient.URLTemplate.Swager.Method.GET" id="c066ab7c-564f-4ba0-8c82-c2bc0af126c9"/>
+		</Metadata>
+		<Metadata name="HTTPService.swSwaggerClient.Module" id="a54433a4-d2de-4a2f-b6f1-7f539046e014.0" configVersion="dae78f2648fe8df6361a45942a54c04d30c0066b"/>
+		<Metadata name="Language.Русский" id="3268e8f4-7775-472b-80d3-e8e14fe8023a" configVersion="43a1a0e18600f57086d9e6f23dfdfb180247b862"/>
+		<Metadata name="Role.sw_ОсновнаяРоль" id="6dce7fa1-f80c-4b0f-8f5e-729029087e58" configVersion="a9071833d11b4b42a0c40647300b4e263311f5a5"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
